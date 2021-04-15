@@ -34,7 +34,7 @@ class App extends Component {
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
-        alert(err);
+        alert(err.toString);
       }
     });
   }
